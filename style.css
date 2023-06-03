@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;padding:0;box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+}
+.heading{
+    margin-bottom: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+form{
+    width: 25%;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 0px 25px;
+    background-color:papayawhip;
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px black;
+}
+.diet{
+    display:flex;
+    flex-direction: column;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+label{
+    padding:5px 0px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 100;
+}
+p{
+    font-family: 'Lilita One', cursive;
+}
+.name{
+height: 34px;
+width: 200px;
+padding: 3px;
+}
+select{
+    padding: 3px;
+    height: 34px;
+    width: 200px;
+}
+.preference{
+    margin-top: 2px;
+}
+select:placeholder{
+    font-family: 'Lilita One', cursive;
+}
+button{
+    height: 24px;
+    width: 80px;
+    margin-bottom: 20px;
+    font-family: 'Lilita One', cursive;
+    background-color: blue;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS FOR SUBMITTED PAGE */
+.box{
+    height: 40vh;
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+    box-shadow: 10px 10px 45px black;
+
+}
+.box img{
+    height: 34px;
+    width: 34px;
+    margin: 5px 0px;
+}
+.first{
+    margin: 5px 0px;
+}
+.second{
+    margin: 5px 0px;
+}
